@@ -62,7 +62,7 @@ Se incluye para aislarlo de los casos de Test, un ejecutable App.java que instan
 
 ### TESTS
 
-Además de ciertos tests incluidos para verificar el correcto funcionamiento por ejemplo de la priorización de los empleados, o del método atenderLlamada, se incluyen 3 tests particularmente importantes para el análisis de un par de escenarios característicos, a saber:
+Además de ciertos tests incluidos para verificar el correcto funcionamiento por ejemplo de la priorización de los empleados, o del método atenderLlamada, se incluyen 4 tests particularmente importantes para el análisis de un par de escenarios característicos, a saber:
 
 - **test10LlamadosConcurrentes**: Es el caso base solicitado en la consigna, y réplica de la ejecución de App.java.
 - **test20LlamadosConcurrentes**: En este caso el tamaño del pool de Threads del ExecutorService es igual al tamaño de la lista de empleados, por lo que se toman 10 llamados instantáneamente al iniciar el test, y los otros 10 se van tomando a medida que se liberan tanto empleados como threads.
